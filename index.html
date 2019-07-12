@@ -75,7 +75,7 @@
 
             <nav class="menu_OurServ">
                 <ul class="menu_OurServ_item">
-                    <li><a class="link_ourServ_menu" data-content="web design" href="#">Web Design</a></li>
+                    <li><a class="link_ourServ_menu active" data-content="web design" href="#">Web Design</a></li>
                     <li><a class="link_ourServ_menu" data-content="graphic design" href="#">Graphic Design</a></li>
                     <li><a class="link_ourServ_menu" data-content="online support" href="#">Online Support</a></li>
                     <li><a class="link_ourServ_menu" data-content="app design" href="#">App Design</a></li>
@@ -84,10 +84,10 @@
                 </ul>
             </nav>
 
-<!--WEB Design-->
-            <div class="art_OurServ" data-content="web design">
+            <div class="container_ourServ" data-content="web design">
+                <div class="art_OurServ" >
                 <div class="img_OurServ1" >
-                    <img src="img/web design/web-design1.jpg" alt="web design"/>
+                    <img src="img/web design/web-design (1).jpg" alt="web design"/>
                 </div>
                 <div class="text_Ourserv">
                     <p>
@@ -102,10 +102,11 @@
                 </p>
                    </div>
 
-            </div>
-            <div class="art_OurServ" data-content="graphic design">
+            </div></div>
+            <div class="container_ourServ" data-content="graphic design">
+                <div class="art_OurServ" >
                 <div class="img_OurServ1" >
-                    <img src="img/web design/web-design2.jpg" alt="web design"/>
+                    <img src="img/web design/web-design (2).jpg" alt="web design"/>
                 </div>
                 <div class="text_Ourserv">
                     <p>
@@ -118,10 +119,10 @@
                     </p>
                 </div>
 
-            </div>
-            <div class="art_OurServ" data-content="online support">
+            </div></div>
+            <div class="container_ourServ" data-content="online support"><div class="art_OurServ" >
                 <div class="img_OurServ1" >
-                    <img src="img/web design/web-design3.jpg" alt="web design"/>
+                    <img src="img/web design/web-design (3).jpg" alt="web design"/>
                 </div>
                 <div class="text_Ourserv">
                     <p>
@@ -133,10 +134,10 @@
                     </p>
                 </div>
 
-            </div>
-            <div class="art_OurServ" data-content="app design">
+            </div></div>
+            <div class="container_ourServ" data-content="app design"><div class="art_OurServ" >
                 <div class="img_OurServ1" >
-                    <img src="img/web design/web-design4.jpg" alt="web design"/>
+                    <img src="img/web design/web-design (4).jpg" alt="web design"/>
                 </div>
                 <div class="text_Ourserv">
                     <p>
@@ -148,10 +149,10 @@
                     </p>
                 </div>
 
-            </div>
-            <div class="art_OurServ" data-content="online marketing">
+            </div></div>
+            <div class="container_ourServ" data-content="online marketing"><div class="art_OurServ" >
                 <div class="img_OurServ1" >
-                    <img src="img/web design/web-design5.jpg" alt="web design"/>
+                    <img src="img/web design/web-design (5).jpg" alt="web design"/>
                 </div>
                 <div class="text_Ourserv">
                     <p>
@@ -163,10 +164,10 @@
                     </p>
                 </div>
 
-            </div>
-            <div class="art_OurServ" data-content="seo service">
+            </div></div>
+            <div class="container_ourServ" data-content="seo service"><div class="art_OurServ" >
                 <div class="img_OurServ1" >
-                    <img src="img/web design/web-design6.jpg" alt="web design"/>
+                    <img src="img/web design/web-design (6).jpg" alt="web design"/>
                 </div>
                 <div class="text_Ourserv">
                     <p>
@@ -182,7 +183,7 @@
                     </p>
                 </div>
 
-            </div>
+            </div></div>
 
 
 
@@ -211,19 +212,21 @@
 
         <nav class="menu_Amazing">
             <ul class="menu_Amazing_item">
-                <li class="item_Amazing grow"><a class="link_Amazing_menu" href="#">All</a></li>
-                <li class="item_Amazing"><a class="link_Amazing_menu" href="#">Graphic Design</a></li>
-                <li class="item_Amazing"><a class="link_Amazing_menu" href="#">Web Design</a></li>
-                <li class="item_Amazing"><a class="link_Amazing_menu" href="#">Landing Page</a></li>
-                <li class="item_Amazing"><a class="link_Amazing_menu" href="#">Wordpress</a></li>
+                <li class="item_Amazing grow "><a class="link_Amazing_menu " data-type="all" href="#">All</a></li>
+                <li class="item_Amazing"><a class="link_Amazing_menu active" data-type="graphic design" href="#">Graphic Design</a></li>
+                <li class="item_Amazing"><a class="link_Amazing_menu" data-type="web design" href="#">Web Design</a></li>
+                <li class="item_Amazing"><a class="link_Amazing_menu" data-type="landing page" href="#">Landing Page</a></li>
+                <li class="item_Amazing"><a class="link_Amazing_menu"  data-type="wordpress" href="#">Wordpress</a></li>
             </ul>
         </nav>
-
-        <section class="gallery_Amazing">
-
+<!-----------------------all------------------>
+        <div class="amazing_img" > </div>
+<!----------graphic disgn ------------------------------------->
+        <div class="amazing_img" data-type="graphic design">
+            <section class="gallery_Amazing">
             <div class="gallery_box">
                 <a class="link_gallery_Amazing" href="#">
-                    <img src="img/graphic design/graphic-design1.jpg" alt="graphic design">
+                    <img data-type="graphic design" src="img/graphic design/graphic-design (1).jpg" alt="graphic design">
                     <div class="box_hover">
                         <figure class="box_hover_icons">
                             <span class="elips1"><i class="fas fa-link"></i></span>
@@ -235,8 +238,8 @@
                 </a>
             </div>
 
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design2.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (2).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -247,8 +250,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design3.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (3).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -259,8 +262,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design4.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (4).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -271,8 +274,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design5.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (5).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -283,8 +286,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design6.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (6).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -295,8 +298,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design7.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (7).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -307,8 +310,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design8.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (8).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -319,8 +322,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design9.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (9).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -331,8 +334,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design10.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (10).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -343,8 +346,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design11.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design"  src="img/graphic design/graphic-design (11).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -355,8 +358,8 @@
                 </div>
             </a>
             </div>
-            <div class="gallery_box"><a class="link_gallery_Amazing" href="#"><img
-                    src="img/graphic design/graphic-design12.jpg" alt="graphic design">
+            <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                <img data-type="graphic design" src="img/graphic design/graphic-design (12).jpg" alt="graphic design">
                 <div class="box_hover">
                     <figure class="box_hover_icons">
                         <span class="elips1"><i class="fas fa-link"></i></span>
@@ -366,9 +369,487 @@
                     <p>Web Design</p>
                 </div>
             </a>
+            </div>
+        </section>
+        </div>
+<!-----------------------web design--------------------------->
+        <div class="amazing_img" data-type="web design">
+            <section class="gallery_Amazing">
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                        <img data-type="graphic design" src="img/web%20design/web-design%20(1).jpg" alt="graphic design">
+                        <div class="box_hover">
+                            <figure class="box_hover_icons">
+                                <span class="elips1"><i class="fas fa-link"></i></span>
+                                <span class="elips2"><i class="fas fa-search"></i></span>
+                            </figure>
+                            <p class="turquoise_color">creative design</p>
+                            <p>Web Design</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(2).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(3).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(4).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(5).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(6).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(7).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(8).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(9).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(10).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(11).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/web%20design/web-design%20(12).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+            </section>
+        </div>
+        <!-----------------------landing page--------------------------->
+        <div class="amazing_img" data-type="landing page">
+            <section class="gallery_Amazing">
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                        <img data-type="graphic design" src="img/landing%20page/landing-page%20(1).jpg"
+                             alt="graphic design">
+                        <div class="box_hover">
+                            <figure class="box_hover_icons">
+                                <span class="elips1"><i class="fas fa-link"></i></span>
+                                <span class="elips2"><i class="fas fa-search"></i></span>
+                            </figure>
+                            <p class="turquoise_color">creative design</p>
+                            <p>Web Design</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(2).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(3).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(4).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(5).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(6).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(7).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(8).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(9).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(10).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(11).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/landing%20page/landing-page%20(12).jpg"
+                         alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+            </section>
+        </div>
+
+<!-----------------------wordpress-->
+
+        <div class="amazing_img" data-type="wordpress">
+
+            <section class="gallery_Amazing">
+
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                        <img data-type="graphic design" src="img/wordpress/wordpress%20(1).jpg" alt="graphic design">
+                        <div class="box_hover">
+                            <figure class="box_hover_icons">
+                                <span class="elips1"><i class="fas fa-link"></i></span>
+                                <span class="elips2"><i class="fas fa-search"></i></span>
+                            </figure>
+                            <p class="turquoise_color">creative design</p>
+                            <p>Web Design</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(2).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(3).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(4).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(5).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(6).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(7).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(8).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box"><a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(9).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(10).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(11).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+                <div class="gallery_box">
+                    <a class="link_gallery_Amazing" href="#">
+                    <img data-type="graphic design" src="img/wordpress/wordpress%20(12).jpg" alt="graphic design">
+                    <div class="box_hover">
+                        <figure class="box_hover_icons">
+                            <span class="elips1"><i class="fas fa-link"></i></span>
+                            <span class="elips2"><i class="fas fa-search"></i></span>
+                        </figure>
+                        <p class="turquoise_color">creative design</p>
+                        <p>Web Design</p>
+                    </div>
+                </a>
+                </div>
+
+            </section>
             </div>
 
-        </section>
 
 
         <div class="button_Amazing">
