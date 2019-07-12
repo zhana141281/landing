@@ -3,14 +3,14 @@
     box-sizing: border-box;
 }
 main {
-    font-family: Montserrat, ﻿AdobeInvisFont, ﻿Courier;
+    font-family: Montserrat, ﻿AdobeInvisFont, ﻿Courier, sans-serif;
     box-sizing: border-box;
            }
-
+/*<!-------------------block - We are creative---------------------------->*/
 .top-block {
     text-align: center;
     background-image: url("../img/Sections background/section-1(header).jpg");
-   padding-bottom: 140px;
+    padding-bottom: 140px;
     background-attachment: fixed;
 }
 .top-navigation {
@@ -141,6 +141,7 @@ main {
     background-color: #00cbf6;
     }
 
+/*<!-----------------------block -four blocks--------------------------->*/
 .color_block {
     justify-content: space-around;
     height: 374px;
@@ -158,9 +159,7 @@ main {
     color: #18cfab;
 }
 .color_block span {
-    margin: auto;
-    margin-top: 105px;
-    margin-bottom: 48px;
+    margin: 105px auto 48px auto;
 
     display: block;
 background-repeat: no-repeat;
@@ -187,6 +186,7 @@ background-repeat: no-repeat;
     background-image: url("../img/network.png");
 }
 
+/*<!---------------------block - Our Services------------------------------------------->*/
 .block_OurServ {
     max-width: 1160px;
     text-align: center;
@@ -283,10 +283,11 @@ background-repeat: no-repeat;
     text-align: justify;
     color: #adadad;
 }
+
+/*<!--------------------------------block - everything is ready------------------------------->*/
 .block_every {
     background:linear-gradient( rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)), url("../img/Sections background/section-2.jpg");
-    background-position: center;
+    rgba(0, 0, 0, 0.7)), url("../img/Sections background/section-2.jpg") center;
     padding: 128px 0;
     text-align: center;
 }
@@ -372,58 +373,64 @@ background-repeat: no-repeat;
     text-decoration: none;
     color: rgba(138, 138, 138, 0.7);
     font-size: 13px;
+ }
+.link_gallery_Amazing img {
+width: 100%;
+height: 100%
 }
 
 .box_hover {
-    border-top: 2px solid #18cfab;
-    position: absolute;
-    top: 0;
-    width: 99%;
-    height: 100%;
-    background-color: #f8fcfe;
-    opacity: 0;
+border-top: 2px solid #18cfab;
+position: absolute;
+top: 0;
+width: 100%;
+height: 101%;
+background-color: #f8fcfe;
+opacity: 0;
 
 }
 .box_hover_icons {
-    height: 45px;
-    margin: 35px auto;
-    text-align: center;
+height: 45px;
+margin: 35px auto;
+text-align: center;
 
 }
 
 .box_hover_icons .elips1, .elips2 {
-    display: inline-block;
-    width: 41px;
-    height: 41px;
-    background-repeat: no-repeat;
-    padding-top: 12px;
-    font-size: 15px;
+display: inline-block;
+width: 41px;
+height: 41px;
+background-repeat: no-repeat;
+padding-top: 12px;
+font-size: 15px;
 }
 .elips1 {
-    background-image: url("../img/Ellipse.png");
-    color: #18cfab;
+background-image: url("../img/Ellipse.png");
+color: #18cfab;
 }
 .elips2 {
-    background-image: url("../img/Ellipse2.png");
-    color: white;
+background-image: url("../img/Ellipse2.png");
+color: white;
 }
 
 .box_hover .turquoise_color {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 13px;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 13px;
 }
 
 .link_gallery_Amazing:hover *  {
-    opacity: 1;
+opacity: 1;
 }
 
- .button_Amazing {
-     margin-top: 71px;
-     margin-bottom: 100px;
-     text-align: center;
-      }
+.button_Amazing {
+ margin-top: 71px;
+ margin-bottom: 100px;
+ text-align: center;
+  }
+
+
 
 /*-------------------------block Breaking News*------------------------------------------------*/
 .block_Breaking{
@@ -504,12 +511,11 @@ background-repeat: no-repeat;
 .link_gallery_Breaking:hover .right_top_block {
     background-color: #18cfab;
 }
- /*//-------block_What people say abour us---------/*/
+ /*//-------block - What people say about us---------/*/
 
 .block_PeopleSay {
-    background: rgba(0, 0, 0, .65) url("../img/Sections background/section-3.jpg");
+    background: rgba(0, 0, 0, .65) url("../img/Sections background/section-3.jpg") center;
     background-blend-mode: darken;
-    background-position: center;
     color: white;
     text-align: center;
 }
@@ -532,7 +538,7 @@ background-repeat: no-repeat;
 }
 
 .text_aboutUs::before {
-    margin: auto;
+    margin: 0 auto 43px auto;
     display: block;
     content: "";
     width: 45px;
@@ -540,8 +546,7 @@ background-repeat: no-repeat;
     background-image:  url("../img/What people say/quotes.png");
     background-repeat: no-repeat;
     font-size: 80px;
-    margin-bottom: 43px;
-}
+    }
 
 .under_text_one {
     margin-top: 43px;
@@ -574,8 +579,10 @@ background-repeat: no-repeat;
     border-radius: 50%;
     border: 1px solid #18cfab;
 }
-
-.photo_PeoplSay {
+.block_photo_people {
+    display: inline-block;
+}
+.photo_PeopleSay {
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -604,29 +611,23 @@ background-repeat: no-repeat;
     border: 1px solid #18cfab;
 }
 
-.slider_PeopleSay::before {
-    transform: translateY(-50%) translateX(-50%);
+.left_bracket, .right_bracket {
     display: inline-block;
-    font-size: 25px;
-    content: "\003C";
+    padding-top: 9px;
+    font-size: 10px;
     color: rgba(187, 187, 187, 0.5);
     width: 31px;
     height: 31px;
     border: 1px solid rgba(187, 187, 187, 0.5);
+    transform: translateY(-70%) translateX(-50%);
 }
 
-.slider_PeopleSay::after {
-    transform: translateY(-50%) translateX(-50%);
-    display: inline-block;
-    font-size: 25px;
-    content: "\003E";
-    color: rgba(187, 187, 187, 0.5);
-    width: 31px;
-    height: 31px;
-    border: 1px solid rgba(187, 187, 187, 0.5);
+.left_bracket:hover, .right_bracket:hover {
+    background-color: #18cfab;
+    color: white;
 }
 
-/*------footer--------*/
+/*------------------------footer--------------------------------*/
 .block_footer {
     background-color: #22353f;
     padding: 47px 0;
