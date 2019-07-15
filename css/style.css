@@ -326,6 +326,7 @@ background-repeat: no-repeat;
 /*-----------------block Our Amazing Work------------------------*/
 
 .block_Amazing {
+    position: relative;
     background-color: #f8fcfe;
     text-align: center;
     border-bottom: 1px solid #e1e1e1;
@@ -383,7 +384,6 @@ background-repeat: no-repeat;
     grid-auto-rows: 208px;
     margin: auto;
     width: 1160px;
-    height: 624px;
     }
 
 .gallery_box {
@@ -447,11 +447,14 @@ opacity: 1;
 }
 
 .button_Amazing {
+    display: block;
  margin-top: 71px;
  text-align: center;
   }
-
-
+.amazing_img {
+    width: 100%;
+    height: fit-content;
+}
 
 /*-------------------------block Breaking News*------------------------------------------------*/
 .block_Breaking{
@@ -655,4 +658,25 @@ opacity: 1;
     text-align: center;
     font-size: 14px;
     color: rgba(174, 174, 174, 255);
+}
+
+
+/*------------------------preloader----------------*/
+
+.dws-progress-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.progress-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: #18cfab;
+    z-index: 1000;
 }
