@@ -206,7 +206,7 @@ const under_text_two = document.querySelectorAll('.under_text_two');
 let Index = '0';
 let src_img_small_circle;
 
-function hide(article, under_text_one, under_text_two, small_circle) {
+function hide(article, under_text_one, under_text_two) {
     article.forEach(function (elem) {
         elem.hidden = true;
 
@@ -217,20 +217,17 @@ function hide(article, under_text_one, under_text_two, small_circle) {
     under_text_two.forEach(function (elem) {
         elem.hidden = true;
     });
-    small_circle.forEach(function (elem) {
-        elem.classList.remove = ('active');
-    })
-}
+  }
 
 function change_img(target) {
+    small_circle[Index].className = 'small_circle';
+    Index = target.dataset.id;
+    small_circle[Index].classList.add("animate");
     src_img_small_circle = target.getAttribute('src');
-    Index= target.dataset.id;
-    // let id = target.dataset.id;
     img_big_circle.setAttribute('src', src_img_small_circle);
     article[Index].hidden = false;
     under_text_one[Index].hidden = false;
     under_text_two[Index].hidden = false;
-    // return Index = id;
 
 }
 
@@ -243,14 +240,18 @@ under_text_two[Index].hidden = false;
 
 
 slider_box.addEventListener('click', function (event) {
-    // console.log(event.target);
+
     let target = event.target;
 
 //---------------------click on photo------------------
     if (target.className === 'photo_PeopleSay') {
+        // small_circle[Index].classList.remove('animate');
         hide(article, under_text_one, under_text_two, small_circle);
         change_img(target);
+
+
     } else {
+        small_circle[Index].className = 'small_circle';
 
 //--------------------click on right - left brackets-------------------
         if (target.classList.contains('right_bracket') || target.classList.contains('fa-chevron-right')) {
@@ -261,10 +262,11 @@ slider_box.addEventListener('click', function (event) {
                 Index = "0";
             }
         } else {
-            hide(article, under_text_one, under_text_two, small_circle);
             if (target.classList.contains('left_bracket') || target.classList.contains('fa-chevron-left')) {
-                if (Index < small_circle.length && Index !== 0) {
-                    Index = +Index -1;
+            hide(article, under_text_one, under_text_two, small_circle);
+                if (Index < small_circle.length && Index !== "0") {
+                    Index = `${+Index -1}`;
+
                 } else {
                     Index = "3";
                 }
@@ -275,10 +277,9 @@ slider_box.addEventListener('click', function (event) {
         under_text_two[Index].hidden = false;
         src_img_small_circle = img_small_circle[Index].getAttribute('src');
         img_big_circle.setAttribute('src', src_img_small_circle);
+        small_circle[Index].classList.add('animate');
          }
 
 })
-
-
 
 

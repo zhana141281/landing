@@ -659,5 +659,14 @@ opacity: 1;
     font-size: 14px;
     color: rgba(174, 174, 174, 255);
 }
+/*----------------------------animation----------------*/
+.small_circle.animate {
+    -webkit-transform: translate(0, -1.3em);
+    -moz-transform: translate(0, -1.3em);
+    -ms-transform: translate(0, -1.3em);
+    transform: translate(0, -1.3em);
+    transition-property: transform;
+    transition-duration: 1s;
+}
 
 
