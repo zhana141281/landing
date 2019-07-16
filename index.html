@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/d5ab12065e.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>-->
 
 
 </head>
@@ -1192,14 +1192,39 @@
 
             <h2 class="header_of_Blocks">What People Say About theHam</h2>
 
-            <article class="text_aboutUs">
+            <article class="text_aboutUs" data-id="0">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolorum hic, obcaecati
                 quasi quidem temporibus vel.
                 Atque beatae dolorum ea eius eum fugit ipsa iste perferendis quia, quos ut voluptas.
             </article>
 
-            <p class="under_text_one">Hasan Ali </p>
-            <p class="under_text_two">UX Designer</p>
+            <article class="text_aboutUs" data-id="1">
+                It has no physical location,
+                or even office, no paid staff or editors, but books in the Original Series are published
+                in the first place to satisfy subscriptions paid by individuals or institutions.
+            </article>
+
+            <article class="text_aboutUs" data-id="2">
+                This means that there is need for a regular sequence of new editions, normally one or two per year;
+                achieving that sequence can pose problems for the Editorial Secretary.
+            </article>
+
+            <article class="text_aboutUs" data-id="3">
+                On the same sheet are given details about the very advantageous discount available to individual
+                members on all back numbers. In 1970 a Supplementary Series was begun, a series which only appears occasionally
+                (it currently has 24 volumes within it).
+            </article>
+
+            <p class="under_text_one" data-id="0">Hasan Ali </p>
+            <p class="under_text_one" data-id="1">Linda Li </p>
+            <p class="under_text_one" data-id="2">Karen Si </p>
+            <p class="under_text_one" data-id="3">Madonna</p>
+
+
+            <p class="under_text_two" data-id="0">WEB Designer</p>
+            <p class="under_text_two" data-id="1">UX Designer</p>
+            <p class="under_text_two" data-id="2">JS Developer</p>
+            <p class="under_text_two" data-id="3">Java Developer</p>
 
             <figure class="big_circle">
                 <div class="big_circle_photo">
@@ -1214,30 +1239,30 @@
                     <i class="fas fa-chevron-left"></i>
                 </div>
                 <div class="block_photo_people">
-                    <figure class="small_circle">
+                    <figure class="small_circle" data-id="0">
                         <div class="small_circle_photo">
-                            <img class="photo_PeopleSay" src="img/What%20people%20say/face1.png" alt="">
+                            <img class="photo_PeopleSay" data-id="0" src="img/What%20people%20say/face1.png" alt="">
 
                         </div>
 
                     </figure>
-                    <figure class="small_circle">
+                    <figure class="small_circle" data-id="1">
                         <div class="small_circle_photo">
-                            <img class="photo_PeopleSay" src="img/What%20people%20say/face2.png" alt="">
+                            <img class="photo_PeopleSay" data-id="1" src="img/What%20people%20say/face2.png" alt="">
 
                         </div>
 
                     </figure>
-                    <figure class="small_circle">
+                    <figure class="small_circle" data-id="2">
                         <div class="small_circle_photo">
-                            <img class="photo_PeopleSay" src="img/What%20people%20say/face3.png" alt="">
+                            <img class="photo_PeopleSay" data-id="2" src="img/What%20people%20say/face3.png" alt="">
 
                         </div>
 
                     </figure>
-                    <figure class="small_circle">
+                    <figure class="small_circle" data-id="3">
                         <div class="small_circle_photo">
-                            <img class="photo_PeopleSay" src="img/What%20people%20say/face4.png" alt="">
+                            <img class="photo_PeopleSay" data-id="3" src="img/What%20people%20say/face4.png" alt="">
 
                         </div>
 
@@ -1262,7 +1287,7 @@
 
 
 
-<script src="js/plugin.js"></script>
+
 
 <script src="js/script.js"></script>
 

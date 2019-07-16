@@ -538,7 +538,7 @@ opacity: 1;
  /*//-------block - What people say about us---------/*/
 
 .block_PeopleSay {
-    background: rgba(0, 0, 0, .65) url("../img/Sections background/section-3.jpg") center;
+    background: rgba(0, 0, 0, .65) url("../img/Sections background/section-3.jpg") center fixed;
     background-blend-mode: darken;
     color: white;
     text-align: center;
@@ -661,22 +661,3 @@ opacity: 1;
 }
 
 
-/*------------------------preloader----------------*/
-
-.dws-progress-bar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-}
-.progress-percentage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    font-weight: bold;
-    color: #18cfab;
-    z-index: 1000;
-}
